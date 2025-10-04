@@ -1,0 +1,23 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-black text-white antialiased;
+  font-family: Inter, system-ui, "Montserrat", Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Reusable gold button class if needed */
+.btn-gold {
+  @apply bg-amber-500 hover:bg-amber-400 text-black font-semibold px-5 py-2 rounded-full transition-colors;
+}
